@@ -43,11 +43,11 @@
 .display-flex{
   display: flex;
 }
-/* header a flex used in: .navbar, .nav-links,.full-slide-2 */
+/* header flex used in: .navbar, .nav-links,.full-slide-2 */
+/* section1 flex used in:  */
 
 
-
-/* usage of display:grid */
+/* usage of display:grid    .card*/
 .display-grid{
   display: grid;
 }
@@ -208,10 +208,84 @@
   top: 20rem;
 }
 
+/* BODY section start*/
+/* section2 styles*/
+.main{
+  background-color: black;
+}
+.section2{
+  
+  background-color: black;
+  margin: 100 auto;
+  /* width: 90rem;
+  height: 290.5rem; */
 
+}
+.section2-title{
+  
+  color: white;
+  font-size: 3rem;
+  font-weight: 900;
+  /* border: 2px solid red; */
+  
+}
+
+.change-habits{
+  /* border: 2px solid blue; */
+  padding: 3rem;
+  max-width: 53.1rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.gol-image{
+  
+  border-radius: 50%;
+}
+.card{
+  /* border: 2px solid red; */
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+.activity{
+  /* border: 2px solid red; */
+  color: white;
+  font-size: 18px;
+ font-weight: 600;
+ 
+}
+.activity-description{
+  /* border: 2px solid tomato; */
+  margin-bottom: 4.5rem;
+}
+.section2-choto{
+  margin-bottom: 4.5rem;
+}
+
+.card1-exercise{
+  /* border: 2px solid tomato; */
+  margin: 0 auto;
+  text-align: center;
+}
+.card2-exercise{
+  /* border: 2px solid tomato; */
+  margin: 0 auto;
+  text-align: center;
+}
+.card3-exercise{
+  /* border: 2px solid tomato; */
+  margin: 0 auto;
+  text-align: center;
+}
+.card4-exercise{
+  /* border: 2px solid tomato; */
+  margin: 0 auto;
+  text-align: center;
+}
 /* media query */
 /* mobile */
 @media screen and (max-width: 576px){ 
+  /* slide1 */
   .navbar, .nav-links,.full-slide-2{
     flex-direction: column;
   }
@@ -288,6 +362,8 @@
     /* justify-content: center;
     align-items: center; */
   } 
+
+/* slide2 */
 
 
 }
