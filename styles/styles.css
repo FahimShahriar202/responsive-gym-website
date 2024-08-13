@@ -285,6 +285,7 @@
 /* media query */
 /* mobile */
 @media screen and (max-width: 576px){ 
+  
   /* slide1 */
   .navbar, .nav-links,.full-slide-2{
     flex-direction: column;
@@ -328,13 +329,13 @@
     display: none;
   }
 
-  .ham-menu{
+  /* .ham-menu{
     width: 50%;
     margin-left: auto;
     position: relative;
-  }
+  } */
 
-  .ham-menu span{
+  /* .ham-menu span{
     border: 2px solid;
     height: 5px;
     width: 10%;
@@ -345,7 +346,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     transition: .3s ease;
-  }
+  } */
 
   .ham-menu span:nth-child(1){
     top: 25%;
@@ -364,8 +365,19 @@
   } 
 
 /* slide2 */
+.card{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  
 
-
+}
+.activity-description{
+  
+  text-align: center;
+}
+.section2-title{
+  font-size: 2.5rem;
+}
 }
 
 
