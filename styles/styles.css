@@ -24,7 +24,7 @@
 }
 
 .linear-gradient-bg{
-  background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+  background: linear-gradient(180deg, rgb(17,17,17),rgba(129, 129, 129, 0) 100%);
 }
 
 .choto-text{
@@ -34,11 +34,16 @@
   font-weight: 400;
 }
 
+
+.red-btn{
+  border-radius: 42px;
+  background: rgb(230, 83, 60);
+}
 /* usage of display:flex */
 .display-flex{
   display: flex;
 }
-/* header a flex used in: .navbar, .nav-links,  */
+/* header a flex used in: .navbar, .nav-links,.full-slide-2 */
 
 
 
@@ -58,12 +63,13 @@
 /* header section !!!*/
 .header{
 
-  border: 2px solid white;
+  border: 1px solid white;
 }
 
 .fitness{
   font-size: 2.25rem;
   font-weight: 800;
+  margin-bottom: 1.75rem;
   /* line-height: 120%; */
   /* letter-spacing: 0%; */
   /* text-align: left; */
@@ -89,3 +95,52 @@
   align-items: center;
 }
 
+.btn{
+  border-radius: 2.5rem;
+  border: none;
+  position: static;
+  width: 14rem;
+  height: 3.25rem;
+  color: white;
+  font-size: 1.1rem;
+}
+
+.btn2{
+  background-color: rgba(0, 0, 0, 0.5);
+  /* border: 1px solid white; */
+}
+
+.shape{
+  color: rgb(255, 255, 255);
+  font-size: 4.5rem;
+  font-weight: 900;
+  width: 32.5rem;
+  height: 17.5rem;
+  margin-bottom: 1.75rem;
+  /* line-height: 120%;
+  letter-spacing: 0%; */
+  text-align: left;
+}
+
+.choto1{
+  margin-bottom: 1.75rem;
+  width: 32.5rem;
+  height: 3rem;   
+}
+
+.slide1{
+  width: 90%;
+  margin: 4rem auto;
+}
+
+.full-slide-2{
+  
+  width: 90%;
+  margin: 4rem auto;
+
+}
+
+
+
+/* media query */
+/* mobile */
