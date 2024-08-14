@@ -290,8 +290,9 @@
 .section3-div-full{
  
   justify-content: space-around;
-  
+  border: 2px solid;
   align-items: center;
+  width: 24rem;
   margin: 0 auto;
   margin-top: 4%;
   margin-bottom: 4%;
@@ -299,19 +300,19 @@
 
 }
 .section3{
-  border: 1px solid black;
+  /* border: 1px solid black; */
   background-color: rgba(34, 34, 34, 1) ;
 
   border-radius: 8px;
 
   margin: 0 auto;
-  width: 90rem;
+  width: 60rem;
   height: 35rem;
 
 }
 
 .section3-div{
-  
+ 
   height: 20rem;
   
 }
@@ -354,13 +355,17 @@ line-height: 24px;
 
 
 /* section 5 */
+
 .section5{}
 
-.meet-team{}
+.meet-team{
+  
+  width: 60rem;
+}
 
 .section5-top{
-  
- 
+
+
   width: 42rem;
   height: 7.5rem;
   margin: 0 auto;
@@ -376,25 +381,26 @@ line-height: 24px;
 .section5-description{}
 
 .trainers{
-  
+
   background-color: rgba(34, 34, 34, 1) ;
 
   border-radius: 8px;
 
   margin: 0 auto;
-  width: 80rem;
+  
+  width: 60rem;
   height: 50rem;
   grid-template-columns: repeat(3,1fr);
 }
 
 .trainer-img{
 
-  width: 20rem;
+  width: 17rem;
   height: 17rem;
 }
 
 .trainer-name{
-  
+
   position: relative;
   bottom: 20%;
   left: 5%;
@@ -423,13 +429,13 @@ line-height: 24px;
   height: 20rem;
 }
 .trainer3{
- 
+
   margin: 0 auto;
   margin-top: 10%;
   height: 20rem;
 }
 .trainer4{
- 
+
   margin: 0 auto;
   margin-top: 10%;
   height: 20rem;
@@ -447,11 +453,9 @@ line-height: 24px;
   margin-bottom: 0%;
   height: 20rem;
 }
-
 /* media query */
 /* mobile */
 @media screen and (max-width: 576px){ 
-
   
   /* slide1 */
   .navbar, .nav-links,.full-slide-2{
@@ -553,6 +557,7 @@ line-height: 24px;
 /* section3 */
 .section3-div-full{
   flex-direction: column;
+  width: 24rem;
 }
 .section3{
  
@@ -574,6 +579,7 @@ line-height: 24px;
 }
 
 
+/* section 5 */
 
 .section5-top{
   width: 24rem;
@@ -600,8 +606,10 @@ line-height: 24px;
     display: none;
 
   }
-  
+
 
 
 }
+
+
 
