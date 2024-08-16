@@ -179,7 +179,7 @@
   top: 16.25rem;
   border-radius: .4rem;
   background: rgba(255,255,255,0.2);
-  background: blue;
+  /* background: green; */
   padding: 1rem;
   align-items: center;
 }
@@ -626,7 +626,7 @@ input , select{
 
  
   .nav-nav{
-    border: 2px solid;
+    /* border: 2px solid; */
     /* display: flex;  */
     /* justify-content: center;
     align-items: center; */
@@ -639,6 +639,7 @@ input , select{
   
 
 }
+
 .activity-description{
   
   text-align: center;
