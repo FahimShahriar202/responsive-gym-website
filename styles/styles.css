@@ -297,7 +297,7 @@
   height: 27.7rem;
 
 }
-.section3{
+.section3, .section4{
   /* border: 1px solid black; */
   background-color: rgba(34, 34, 34, 1) ;
 
@@ -349,9 +349,66 @@ line-height: 24px;
   object-fit: cover;
 }
 
+
 /* section 4 */
+.section4{
+  /* text-align: center; */
+  /* border: 2px solid pink; */
+  padding-top: 4rem;
+}
+th{
+  text-align: center;
+}
+table{
+  width: 25rem;
+  height: 18rem;
+}
+td{
+  text-align: center;
+}
+.bmi-header{
+  color: white;
+  font-size: 2.5rem;
+}
+.in4{
+  /* border: 2px solid red; */
+  height: 5rem;
 
+}
 
+input , select{
+  /* border: 2px solid blue; */
+  height: 2rem;
+  width: 12.5rem;
+  background-color: lightgrey;
+  border-radius: 8px;
+  text-align: start;
+}
+.select-act{
+  /* border: 2px solid white; */
+  
+  display: grid;
+  text-align: center;
+
+}
+.activity-fact{
+  width: 26rem;
+}
+.bmi-top{
+  text-align: center;
+
+}
+.bmi-chart{
+  display: flex;
+  align-items: space-around;
+
+}
+.chart, .calculator{ 
+  /* border: 2px solid white; */
+  /* width: 80%; */
+  margin-left: 3%;
+  margin-right: 3%;
+}
 /* section 5 */
 
 .section5{
@@ -602,7 +659,7 @@ line-height: 24px;
 .section3{
  
   width: 24rem;
-  height: 37rem;
+  height: 50rem;
 }
 .section3-div{
   
@@ -617,8 +674,40 @@ line-height: 24px;
   font-size: 3rem;
   text-align: center;
 }
+ /* section4 */
+ .section4{
+  padding-top: 1rem;
+  width: 24rem;
+  height: 50rem;
+}
+.calculator,.bmi-header{
+  text-align: center;
+  margin-bottom: 5%;
+}
+table{
+  width: 23rem;
+  height: 15rem;
+  margin-bottom: 5%;
+}
+.in4{
+  margin-bottom: 20%;
+}
+.select-act{
+  grid-template-columns: repeat(1,1fr);
+}
+.bmi-chart{
+  
+  flex-direction: column;
+}
+.select-act{
+  text-align: center;
+}
 
-
+.activity-fact{
+ 
+  width: 13rem;
+  
+}
 /* section 5 */
 .meet-team{
   width: 21rem;
