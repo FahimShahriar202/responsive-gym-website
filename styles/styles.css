@@ -16,6 +16,7 @@
 /* shared styles !!! */
 *{
   margin: 0;
+  
 }
 
 .container{
@@ -75,9 +76,6 @@
   /* text-align: left; */
 }
 
-.ham-menu{
-  display: none;
-}
 
 .nav-item{
   list-style: none;
@@ -290,9 +288,9 @@
 .section3-div-full{
  
   justify-content: space-around;
-  border: 2px solid;
+  /* border: 2px solid; */
   align-items: center;
-  width: 24rem;
+  /* width: 24rem; */
   margin: 0 auto;
   margin-top: 4%;
   margin-bottom: 4%;
@@ -307,7 +305,7 @@
 
   margin: 0 auto;
   width: 60rem;
-  height: 35rem;
+  height: 30rem;
 
 }
 
@@ -356,7 +354,10 @@ line-height: 24px;
 
 /* section 5 */
 
-.section5{}
+.section5{
+
+  margin-left: 1.5%;
+}
 
 .meet-team{
   
@@ -453,6 +454,53 @@ line-height: 24px;
   margin-bottom: 0%;
   height: 20rem;
 }
+
+
+/* slide 6 */
+.section6{
+  /* border: 2px solid red; */
+  background-color: #222222;
+  margin-bottom: 0;
+  border-radius: 8px;
+  
+}
+.slide6-header{
+  display: grid;
+  grid-template-columns: repeat(1,2.5fr) 1fr 1fr;
+
+}
+
+.feature{
+  color: silver;
+}
+.get{
+  margin-top: 5%;
+}
+
+.fitness-last{
+  color: rgba(230, 83, 60, 1);
+  font-size: 2.25rem;
+  font-weight: 800;
+  margin-bottom: 1.75rem;
+}
+
+.get{
+  color: white;
+}
+
+.footer{
+  /* background: linear-gradient(180deg, rgb(17,17,17),rgba(129, 129, 129, 0) 100%); */
+  text-align: center;
+ 
+  background-color: #222222;
+  
+}
+.hr{
+  width: 70%;
+  text-align: center;
+  margin-left: 15%;
+ }
+
 /* media query */
 /* mobile */
 @media screen and (max-width: 576px){ 
@@ -519,15 +567,7 @@ line-height: 24px;
     transition: .3s ease;
   } */
 
-  .ham-menu span:nth-child(1){
-    top: 25%;
-
-  }
-  .ham-menu span:nth-child(3){
-    top: 75%;
-
-  }
-
+ 
   .nav-nav{
     border: 2px solid;
     /* display: flex;  */
@@ -580,8 +620,16 @@ line-height: 24px;
 
 
 /* section 5 */
-
+.meet-team{
+  width: 21rem;
+}
+.section5{
+  /* border: 2px solid red; */
+  margin-left: 5%;
+  
+}
 .section5-top{
+  /* border: 2px solid red; */
   width: 24rem;
   margin: 0 auto;
   text-align: center;
@@ -589,6 +637,7 @@ line-height: 24px;
 }
 
 .trainers{
+  
   display: grid;
   grid-template-columns: repeat(1,1fr);
   width: 24rem;
@@ -607,6 +656,12 @@ line-height: 24px;
 
   }
 
+/* .section6 */
+.slide6-header{
+  /* border: 2px solid red; */
+  grid-template-columns: repeat(1,1fr);
+  text-align: center;
+}
 
 
 }
